@@ -28,14 +28,18 @@ a {
     display:flex;
     justify-content: center;
     align-content: center;
-    outline: 1px solid black;
-    padding: 48px;
+    background-color: lightgray;    
+    padding: 32px;
+}
+
+.content.first .heading {
+    font-size: 24px;
 }
 
 .content.first .right-side {
     display:flex;
     align-items: center;
-    
+    background-color: gray;
 }
 
 
@@ -57,6 +61,7 @@ a {
     align-items: center;
     
 }
+/* a space means "within" and combined with . selector means "and" */
 .content.second .top{
     font-weight: bold;
     padding: 16px;
@@ -66,6 +71,19 @@ a {
     height: 100px;
     outline: 1px solid blue;
 }
+
+.content.third {
+    background-color: lightgrey;
+    padding: 48px;
+}
+
+.content.fourth {
+    background-color: aliceblue;
+    border: 48px solid white;
+}
+
+
+
 .footer {
     background-color: lightgray;
     display:flex;
