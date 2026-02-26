@@ -68,8 +68,8 @@ a {
     border: 0px;
     padding-left:45px;
     padding-right:45px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 11px;
+    padding-bottom: 5px;
     font-weight: bold;
     flex: 0 0 25px;
     display: flex;
@@ -170,10 +170,10 @@ a {
 .content.fourth {
     background-color:  #3882F6;
     color:#F9FAF8;
-    border: 48px solid white;
-    border-radius: 72px; /*rounded corners*/
+    border: 100px solid white;
+    border-radius: 125px; /*rounded corners*/
     display: flex;
-    padding: 100px;
+    padding: 50px;
 }
 
 .content.fourth .leftside {
@@ -193,6 +193,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -50px;
 }
 
 .content.fourth .signup {
