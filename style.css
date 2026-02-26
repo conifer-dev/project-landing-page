@@ -16,8 +16,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 120px;
     padding-top: 20px;
+  
+}
+.header-container .logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-container ul {
@@ -51,8 +56,9 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .content.first .signup-button {
@@ -60,11 +66,16 @@ a {
     color:#F9FAF8;
     border-radius: 5px; /*rounded corners*/
     border: 0px;
-    padding-left:16px;
-    padding-right:16px;
+    padding-left:45px;
+    padding-right:45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-weight: bold;
     flex: 0 0 25px;
+    display: flex;
     align-self: flex-start;
+    
+    justify-content: center;
 }
 
 .content.first .heading {
@@ -82,7 +93,7 @@ a {
     flex: 1;
     display:flex;
     align-items: center;
-    background-color: gray;
+   /* background-color: gray;*/
     justify-content: center;
     align-items: center;
 }
@@ -94,28 +105,44 @@ a {
     align-items: center;
     outline: 1px solid  #3882F6;;
     padding: 100px;
+    gap: 32px;
+    color: #1F2937;
+}
+
+.content.second .top{
+    font-weight: bold;
+    font-size: 32px;
+   
+    justify-content: center;
+    align-items: center;
 }
 .content.second .card-container {
     display:flex;
     flex-direction: row;
-    gap: 24px;
+    
+    justify-content: center;
 }
 .content.second .card {
     display:flex;
     flex-direction: column;
     align-items: center;
-    
-}
-/* a space means "within" and combined with . selector means "and" */
-.content.second .top{
-    font-weight: bold;
+    gap: 24px;
     padding: 16px;
 }
+
 .photo-box{
-    width: 100px;
-    height: 100px;
-    outline: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    outline: 3px solid #3882F6;
     border-radius: 25px; /*rounded corners*/
+}
+
+.content.second .text {
+    font-size: 16px;
+    font-weight: 300px;
+    color: #1F2937;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 
 /*quote*/
@@ -136,6 +163,7 @@ a {
 .content.third .author {
     font-weight: bold;
     align-self: flex-end;
+    color: #1F2937;
 }
 
 /*call to action*/
@@ -152,6 +180,7 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 .content.fourth .heading {
@@ -170,11 +199,11 @@ a {
     background-color:  #3882F6;
     color:#F9FAF8;
     border-radius: 12px; /*rounded corners*/
-    border: 4px solid white;
-    padding-left:16px;
-    padding-right:16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    border: 3px solid white;
+    padding-left:45px;
+    padding-right:45px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .footer {
